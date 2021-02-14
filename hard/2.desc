@@ -1,0 +1,7 @@
+Only correct equations please!
+
+Your intern gave you a list of equations, however, they weren't really good at maths. So many of their equations are incorrect. You are given a file which has several lines of the form `<expr>=<value>`, where `<expr>` is an expression containing only integers and the operands plus, minus, or multiply. The `<value>` is an integer (positive or negative). 
+
+Your task is to delete the incorrect equations from the input file.
+
+Note: this question also has private test files.
