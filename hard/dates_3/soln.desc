@@ -1,0 +1,12 @@
+<C-v>: begin visualblock select mode
+G: select everything till end of line
+I: start insertion for all lines in selection
+2021-: enter the string "2021-"
+<Esc>qa: start recording macro
+/AM<CR>: search for AM
+hD: remove AM
+B12<C-a>: increase hours by 12
+@a: rerun this macro
+q: end macro recoding
+@a: run macro
+:%s: PM::: remove PM
