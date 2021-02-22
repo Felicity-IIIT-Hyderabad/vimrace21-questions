@@ -1,0 +1,9 @@
+<C-v>: begin visualblock select mode
+G: select everything till end of line
+I: start insertion for all lines in selection
+2021-: enter the string "2021-"
+<Esc>: enter normal mode again
+f<space>: find space before HH:MM
+l<C-v>G: select all lines from that character
+t:: move cursor to before colon
+12<C-a>: increase all hours by 12
