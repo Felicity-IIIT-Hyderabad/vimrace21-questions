@@ -1,2 +1,3 @@
-VG: enter visual line mode and select all lines
-gJ: join selection without adding space
+Hello Vim!
+
+Join all the lines to view a special message!
