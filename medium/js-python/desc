@@ -4,7 +4,7 @@ You have a source file in JavaScript, but you hate JavaScript! So, you will use 
 
 You are guaranteed that the source file only contains some or all of the following:
 
-1. variable definition using var or let (no kind of destructuring, only one variable definition per statement)
+1. variable definition using var, const or let (no kind of destructuring, only one variable definition per statement)
 2. named function definitions (with or without arguments)
 3. if-else/if-else blocks
 4. standard arithmetic operations\

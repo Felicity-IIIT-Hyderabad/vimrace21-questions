@@ -2,5 +2,5 @@
 :%s/;//g
 :g/}/d
 :%s/ {/:/g
-%s/\(let\|var\) //g
+%s/\v(let|var|const) //g
 %s/console.log/print/g
