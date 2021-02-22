@@ -1,0 +1,11 @@
+Dates 3
+
+EMERGENCY!!
+Someone dropped the production database.
+Thankfully, we had backups.
+
+We have restored almost all the data but unfortunately, one column didn't behave well
+
+Convert the datetime format to YYYY-MM-DD HH:MM
+
+Note: All datetimes given can be in AM/PM
