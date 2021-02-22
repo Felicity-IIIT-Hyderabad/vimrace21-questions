@@ -1,0 +1,20 @@
+let a = 1;
+var b = 2;
+
+function bitwiseand(a, b) {
+    return a & b;
+}
+
+if (a > b) {
+    if (bitwiseand(a, b) == 0) {
+        console.log(a);
+    } else {
+        console.log(b);
+    }
+} else {
+    if (bitwiseand(a, b) == 1) {
+        console.log(a);
+    } else {
+        console.log(b);
+    }
+}
