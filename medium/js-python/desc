@@ -1,0 +1,18 @@
+JS Boo, Python Love!
+
+You have a source file in JavaScript, but you hate JavaScript! So, you will use the power of Vim to quickly convert the file to Python.
+
+You are guaranteed that the source file only contains some or all of the following:
+
+1. variable definition using var, const or let (no kind of destructuring, only one variable definition per statement)
+2. named function definitions (with or without arguments)
+3. if-else/if-else blocks
+4. standard arithmetic operations\
+5. console.log for output
+6. Arbitrarily many nested statements.
+
+You are also guaranteed that all valid statements in the file end with semicolons.
+
+Note: Whitespace matters. See input and output files for clarity.
+
+(There are no private tests)

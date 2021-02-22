@@ -1,0 +1,7 @@
+s is the substitute feature in Vim. You can view its details in `:help :s`.
+
+All of these commands are doing simple substitutions to reach from the source to the target format.
+
+The tricky part here may be `(let|var|const)` which is a regex that matches on either `let` or `var`. You can see more help on that here: [tutorial](https://www.regular-expressions.info/brackets.html)
+
+The `\v` is a magic mode modifier in Vim. Without it, we would have to write `\(let\|var\|const\)` in the regex. Read more about magic mode [here](https://vim.fandom.com/wiki/Simplifying_regular_expressions_using_magic_and_no-magic).

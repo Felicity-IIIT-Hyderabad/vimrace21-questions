@@ -1,0 +1,6 @@
+:%s/function/def/g
+:%s/;//g
+:g/}/d
+:%s/ {/:/g
+%s/\v(let|var|const) //g
+%s/console.log/print/g
