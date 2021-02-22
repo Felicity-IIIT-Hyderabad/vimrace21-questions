@@ -1,0 +1,5 @@
+Solution: 
+
+1. Follow [vimcast](http://vimcasts.org/episodes/simple-calculations-with-vims-expression-register/) to understand how to manipulate the expression register. Insert the actual result of the computation at the end of the line.
+2. Use `:g`  with backreference to delete non-matching lines ([vim wiki](https://vim.fandom.com/wiki/Delete_all_lines_containing_a_pattern)) (command: `g!/\(\d\+\) \1/d` - delete all lines not matching this pattern)
+3. Finally remove the last word from each of the remaining lines.
