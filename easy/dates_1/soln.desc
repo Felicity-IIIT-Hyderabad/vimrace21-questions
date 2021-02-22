@@ -1,0 +1,4 @@
+<C-v>: begin visualblock select mode
+G: select everything till end of line
+I: start insertion for all lines in selection
+2021-: enter the string "2021-"
