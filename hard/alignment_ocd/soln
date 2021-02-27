@@ -1,0 +1,12 @@
+%s/ *=> *".*",//g<CR>
+%s/./a/g<CR>
+sort!
+y$
+u
+/<c-r>"<CR>
+mm
+2u
+qaf=50i<Space><Esc>j0@aq@a
+'m
+f<Space>l50k
+qbdt=j@bq@b
