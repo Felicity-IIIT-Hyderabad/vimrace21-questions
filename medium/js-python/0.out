@@ -10,3 +10,9 @@ sum = addition(1, 1)
 diff = subtraction(1)(1)
 
 print(sum * diff)
+
+if sum > diff:
+    if sum > 5:
+        print(sum)
+else:
+    print(diff)
