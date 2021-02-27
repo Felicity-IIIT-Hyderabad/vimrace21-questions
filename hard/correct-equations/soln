@@ -1,4 +1,4 @@
 yt= " copy till = sign
 A <C-r>=<C-r>0<CR> " evaluate the clipboard expression
 :g!/\(\d\+\) \1/d " deleting invalid lines
-:%s| \\d\+$||g " delete last set of integers from each line
+:%s/ \d\+$//g " delete last set of integers from each line
