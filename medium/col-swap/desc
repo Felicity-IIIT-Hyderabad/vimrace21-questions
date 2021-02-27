@@ -1,0 +1,9 @@
+Column swappers
+
+Your new intern has recently downloaded the production analytics CSV file, having lots of data!
+
+However, they swapped the middle two columns of data.
+
+Help the intern by showing your Vim-foo and swapping the middle two columns!
+
+Note: It is guaranteed the column data has no values which contain ,.
