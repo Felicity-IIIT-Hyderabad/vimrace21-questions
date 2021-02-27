@@ -1,12 +1,16 @@
+qd
 %s/ *=> *".*",//g<CR>
 %s/./a/g<CR>
+q
 sort!
 y$
-u
-/<c-r>"<CR>
+u5<C-r>
+@d
+/<C-r>"<CR>
 mm
-2u
+u5<C-r>
 qaf=50i<Space><Esc>j0@aq@a
 'm
-f<Space>l50k
+f<Space>l
+:call cursor(1, 0)<CR>
 qbdt=j@bq@b
